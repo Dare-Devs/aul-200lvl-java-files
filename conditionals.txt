@@ -1,0 +1,6 @@
+==
+>=
+<=
+<
+
+stopped at conditionals - switch- case

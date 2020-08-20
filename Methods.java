@@ -1,18 +1,22 @@
 public class Methods {
 
-    static int square(int x) {
-        return x * x;
+    static Boolean increment(int x) {
+        return x > 10;
     }
 
-    static void shout() {
-        System.out.println("i am shouting");
+    void shout() {
+        System.out.println("I am shouting");
     }
 
     public static void main(String[] args) {
 
-        System.out.println(square(40));
-        shout();
+        Methods tekena = new Methods();
+
+        tekena.shout();
+        Boolean bool = increment(40);
+        System.out.println(bool);
+        // shout();
     }
 }
 
-// f(x)=x^2
+// f(x)= x + 1

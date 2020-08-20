@@ -1,44 +1,41 @@
-// import java.util.Scanner;
-
 class Conditionals {
     public static void main(String[] args) {
         // If - Statement
-        // int num = 80;
+        // int num = 9;
 
         // Boolean aBool = num >= 10;
 
         // if (aBool) {
         // System.out.println("This number is greater than my age");
         // }
+
         // System.out.println("Here");
 
-        // Scanner value = Scanner.nextLine();
-
         // If -Else
-        // int var = -90;
+        // int num = -2;
 
-        // if (var >= 0) {
-        // System.out.println("This number is positive");
+        // if (num >= 0) {
+        // System.out.println("This is a positive number");
         // } else {
-        // System.out.println("This number is negative");
+        // System.out.println("This is a negative number");
         // }
 
         // If - ElseIf
 
-        // Double grade;
-        // grade = -7.0;
-        // if (grade <= 45) {
-        // System.out.println("D");
-        // } else if (grade <= 60) {
-        // System.out.println("C");
-        // } else if (grade <= 70) {
-        // System.out.println("B");
-        // } else if (grade <= 100) {
+        // Double score = 45.89;
+
+        // if (score > 70) {
         // System.out.println("A");
+        // } else if (score >= 60) {
+        // System.out.println("B");
+        // } else if (score >= 40) {
+        // System.out.println("C");
+        // } else {
+        // System.out.println("You are a failure");
         // }
 
         // Switch statements
-        // int day = 7;
+        // int day = 3;
 
         // switch (day) {
         // case 1:

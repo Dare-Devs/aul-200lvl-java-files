@@ -16,14 +16,16 @@ public class ForLoop {
         // System.out.println("Enter your age: ");
         // int age = Integer.valueOf(scan.nextLine());
 
+        // int age = scan.nextInt();
+
         // System.out.println(age);
 
         // Find the area of a circle
 
         double pi = 3.142;
-        double r = 6.5;
-        // System.out.println("Enter the radius: ");
-        // double r = Double.valueOf(scan.nextLine());
+        // double r = 6.5;
+        System.out.println("Enter the radius: ");
+        double r = Double.valueOf(scan.nextLine());
         double area = pi * r * r;
 
         System.out.println("The area of the circle is " + area);

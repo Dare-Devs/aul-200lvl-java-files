@@ -1,8 +1,8 @@
 class Constructors {
-    String name = "";
+    String name;
 
     Constructors(String name) {
-        // System.out.println("This is inside the constructor");
+        System.out.println("This is inside the constructor");
         this.name = name;
     }
 
@@ -12,9 +12,11 @@ class Constructors {
 
     public static void main(String[] args) {
         Constructors teks = new Constructors("Tekena");
+        Constructors judith = new Constructors("Judith");
 
-        teks.run();
+        // teks.run();
         System.out.println(teks.name);
+        System.out.println(judith.name);
         // System.out.println("Hello Constructors");
     }
 }

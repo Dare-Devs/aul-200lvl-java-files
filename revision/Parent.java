@@ -31,6 +31,10 @@ class Parent {
         this.accBal = accBal;
     }
 
+    static void testMethod(){
+        System.out.println("This is a test method");
+    }
+
 
     void aMethodToBeOverriden(){
         System.out.println("Initially A");
